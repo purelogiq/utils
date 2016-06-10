@@ -12,5 +12,6 @@
  * 'unsticks' those sticky headers.
  */
 
+console.log("Running Gitlab Remove Sticky Header Script");
 $('header').first().css('position', 'absolute');
 $('.layout-nav').first().css('position', 'absolute');
